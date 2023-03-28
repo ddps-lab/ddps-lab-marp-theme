@@ -178,7 +178,7 @@ footer {
 
 section {
   background-color: var(--color-background);
-  background-image: url(./assets/ddps.png);
+  background-image: url(https://github.com/ddps-lab/ddps-lab-marp-theme/raw/main/assets/ddps.png);
   background-position-x: 20px;
   background-position-y: 650px;
   background-repeat: no-repeat;
