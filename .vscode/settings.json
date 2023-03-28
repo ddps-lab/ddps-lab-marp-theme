@@ -1,0 +1,6 @@
+{
+  "markdown.marp.themes": [
+    "./theme/ddps.css",
+  ],
+  "markdown.marp.enableHtml": true
+}
