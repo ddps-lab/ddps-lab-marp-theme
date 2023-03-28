@@ -246,5 +246,6 @@ $$
 <!-- paginate: false -->
 
 # Thank you
-( This file was created with reference to this file.
+( This file was created with reference to these files.
+ : marp gaia theme ,
  : https://github.com/ttyskg/marp-themes/blob/master/sample.md  )
