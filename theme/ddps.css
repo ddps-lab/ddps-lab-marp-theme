@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * @theme ddps
+ * @theme ddps-dev
  * @auto-scaling true
  * @size 16:9 1280px 720px
  */
@@ -126,6 +126,7 @@ section.lead {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 60px;
 }
 
 section.invert pre,
@@ -143,10 +144,36 @@ section img {
 
 section table th,
 section table td {
-  background-color: #6f85a6;
-  border: 1px solid white;
+  background-color: #fff;
+  border: 2px solid #000;
 }
-section table tbody > tr:nth-child(odd) td,
-section table tbody > tr:nth-child(odd) th {
-  background-color: #8fa8cf;
+
+section table th:nth-child(1),
+section table td:nth-child(1) {
+  border-left: none;
+  border-right: none;
+}
+
+section table th:last-child,
+section table td:last-child {
+  border-right: none;
+}
+
+section table thead {
+  border-bottom: 8px double #000;
+}
+
+section.lead-invert {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-main);
+  color: var(--color-background);
+  background-image: none;
+  padding-bottom: 60px;
+}
+
+section.lead-invert > * {
+  color: var(--color-background);
 }
